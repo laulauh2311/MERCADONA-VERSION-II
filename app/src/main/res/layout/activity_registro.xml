@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Registro">
+
+    <TextView
+        android:id="@+id/Usuarios"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="24dp"
+        android:gravity="center"
+        android:text="@string/Boton_Registro_Usuarios"
+        android:textSize="20dp"></TextView>
+
+    <Button
+        android:id="@+id/BotonUsuarios"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/botonredondo"
+        android:drawableLeft="@drawable/ic_account_circle_black_usuario"
+        android:gravity="center"
+        android:text="Usuarios"
+        android:textSize="18dp"></Button>
+
+    <TextView
+        android:id="@+id/Tiendas"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="24dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:text="@string/Boton_Registro_Tiendas">
+    </TextView>
+
+    <Button
+        android:id="@+id/BotonTiendas"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/botonredondo"
+        android:drawableLeft="@drawable/ic_store_black_store"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:text="Tiendas"
+        ></Button>
+
+</LinearLayout>

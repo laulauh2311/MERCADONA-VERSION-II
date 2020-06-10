@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="Mercados">
+        <item> Mercado San Camilo </item>
+        <item> Mercado 13 de Enero </item>
+        <item> Mercado Nueva Esperanza </item>
+        <item> Mercado La Nueva Aurora</item>
+        <item> Mercado 7 de Agosto </item>
+        <item> Mercado Hipolito Unanue</item>
+        <item> Mercado El Palomar </item>
+    </array>
+    <array name="Distritos">
+        <item> ALTO SELVA ALEGRE </item>
+        <item> CAYMA </item>
+        <item> CERRO COLORADO </item>
+        <item> CHARACATO </item>
+        <item> CHIGUATA </item>
+        <item> JACOBO HUNTER </item>
+        <item> JOSÉ LUIS BUSTAMANTE Y RIVERO</item>
+        <item> LA JOYA </item>
+        <item> MARIANO MELGAR </item>
+        <item> MIRAFLORES </item>
+        <item> MOLLEBAYA </item>
+        <item> PAUCARPATA </item>
+        <item> POCSI </item>
+        <item> POLOBAYA </item>
+        <item> QUEQUEÑA </item>
+        <item> SABANDÍA </item>
+        <item> SACHACA </item>
+        <item> SAN JUAN DE SIGUAS </item>
+        <item> SAN JUAN DE TARUCANI </item>
+        <item> SANTA ISABEL DE SIGUAS </item>
+        <item> SANTA RITA DE SIGUAS </item>
+        <item> SOCABAYA </item>
+        <item> TIABAYA </item>
+        <item> UCHUMAYO </item>
+        <item> VITOR </item>
+        <item> YANAHUARA </item>
+        <item> YARABAMBA </item>
+        <item> YURA </item>
+    </array>
+    <array name="Rubros">
+        <item> CARNICERIA </item>
+        <item> ABARAROTES </item>
+        <item> ESPECIERIAS </item>
+        <item> VENTA DE POLLO </item>
+        <item> EMBUTIDOS </item>
+        <item> VEGETALES </item>
+        <item> FRUTERIA </item>
+        <item> VENTA DE PAPA </item>
+    </array>
+</resources>

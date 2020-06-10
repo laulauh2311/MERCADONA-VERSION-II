@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Registro">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"></LinearLayout>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Crea una Cuenta"
+                android:layout_marginBottom="15dp"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/Nombre"
+                android:layout_width="289dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="24dp"
+                android:background="@drawable/edittextredondo"
+                android:drawableLeft="@drawable/ic_account_circle_black_usuario"
+                android:hint="@string/Nombre_Usuario"
+                android:selectAllOnFocus="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/username" />
+
+            <EditText
+                android:id="@+id/Apellidos"
+                android:layout_width="289dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="24dp"
+                android:drawableLeft="@drawable/ic_people_black_apellido"
+                android:imeOptions="actionDone"
+                android:selectAllOnFocus="true"
+                android:background="@drawable/edittextredondo"
+                android:hint="@string/Apellidos"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/username" />
+
+            <EditText
+                android:id="@+id/Correo"
+                android:layout_width="289dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="24dp"
+                android:inputType="textEmailAddress"
+                android:drawableLeft="@drawable/ic_email_black_email"
+                android:selectAllOnFocus="true"
+                android:hint="@string/prompt_email"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:background="@drawable/edittextredondo"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/username" />
+
+            <EditText
+                android:id="@+id/Correo1"
+                android:layout_width="289dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="24dp"
+                android:inputType="textEmailAddress"
+                android:drawableLeft="@drawable/ic_check_circle_black"
+                android:imeOptions="actionDone"
+                android:selectAllOnFocus="true"
+                android:hint="@string/prompt_email1"
+                android:background="@drawable/edittextredondo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/username"
+                tools:ignore="RtlCompat" />
+
+            <EditText
+                android:id="@+id/Telefono"
+                android:layout_width="289dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="24dp"
+                android:drawableLeft="@drawable/ic_phone_black_phone"
+                android:imeOptions="actionDone"
+                android:inputType="phone"
+                android:selectAllOnFocus="true"
+                android:hint="Telefono Celular"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:background="@drawable/edittextredondo"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/username"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/editTextView1"
+                android:layout_width="289dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="60dp"
+                android:text="@string/prompt_password"
+                android:textSize="18dp"></TextView>
+
+            <EditText
+                android:id="@+id/Contraseña"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="60dp"
+                android:background="@drawable/edittextredondo"
+                android:drawableLeft="@drawable/ic_lock_black_paswword"
+                android:inputType="textPassword"
+                android:selectAllOnFocus="true"
+                android:hint="@string/prompt_password" />
+
+            <TextView
+                android:id="@+id/editTextView2"
+                android:layout_width="289dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="60dp"
+                android:text="@string/prompt_password1"
+                android:textSize="18dp"></TextView>
+
+            <EditText
+                android:id="@+id/Contraseña1"
+                android:layout_width="289dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="24dp"
+                android:drawableLeft="@drawable/ic_check_circle_black"
+                android:imeOptions="actionDone"
+                android:selectAllOnFocus="true"
+                android:background="@drawable/edittextredondo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/username"
+                android:inputType="textPassword"
+                android:hint="@string/prompt_password1"/>
+
+            <TextView
+                android:id="@+id/editTextView3"
+                android:layout_width="289dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="60dp"
+                android:text="@string/SeleccionarDistrito"
+                android:textSize="18dp" />
+
+            <Spinner
+                android:id="@+id/sp01"
+                style="@style/Widget.AppCompat.Spinner.Underlined"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="60dp" />
+
+            <Button
+                android:id="@+id/Registrar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="80dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="80dp"
+                android:background="@drawable/botonredondo"
+                android:text="Enviar" />/>/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

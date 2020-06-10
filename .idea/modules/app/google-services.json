@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "329790629834",
+    "firebase_url": "https://mercado-c7572.firebaseio.com",
+    "project_id": "mercado-c7572",
+    "storage_bucket": "mercado-c7572.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:329790629834:android:5cf974b359e8611220d133",
+        "android_client_info": {
+          "package_name": "com.example.aplicacionmercadoa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "329790629834-7qpv4t311cth9vn5ob63smpqodmfoo50.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aplicacionmercadoa",
+            "certificate_hash": "53dcc2715477ec23fa27499da903fa0a66292f30"
+          }
+        },
+        {
+          "client_id": "329790629834-7sniojibhmpj0gmb5bdt0eisbu0ri685.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPWJ7xSlF1VITI4a5ky89R3L_BPZVMoOc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "329790629834-7sniojibhmpj0gmb5bdt0eisbu0ri685.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
